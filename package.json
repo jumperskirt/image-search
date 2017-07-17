@@ -1,0 +1,32 @@
+{
+  "name": "image-search",
+  "version": "0.0.1",
+  "description": "searching images",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "google-search": "0.0.5",
+    "nunjucks": "^3.0.1",
+    "nunjucks-autoescape": "^1.0.1",
+    "pg": "^6.4.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.3.1",
+    "sqlite": "^2.8.0",
+    "sqlite3": "^3.1.8"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
